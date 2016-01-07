@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		4A42C3DE1C3C4A5C005D2516 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A42C3DD1C3C4A5C005D2516 /* main.m */; };
 		4A42C3E11C3C4A5C005D2516 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A42C3E01C3C4A5C005D2516 /* AppDelegate.m */; };
-		4A42C3E41C3C4A5C005D2516 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A42C3E31C3C4A5C005D2516 /* ViewController.m */; };
 		4A42C3E71C3C4A5C005D2516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A42C3E51C3C4A5C005D2516 /* Main.storyboard */; };
 		4A42C3E91C3C4A5C005D2516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A42C3E81C3C4A5C005D2516 /* Assets.xcassets */; };
 		4A42C3EC1C3C4A5C005D2516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A42C3EA1C3C4A5C005D2516 /* LaunchScreen.storyboard */; };
+		4A42C3F51C3C4A8E005D2516 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A42C3F41C3C4A8E005D2516 /* ListViewController.m */; };
+		4A42C3F71C3C4AD9005D2516 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A42C3F61C3C4AD9005D2516 /* CoreLocation.framework */; };
+		4A42C3F91C3C4ADF005D2516 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A42C3F81C3C4ADF005D2516 /* MapKit.framework */; };
+		4A42C3FC1C3C5321005D2516 /* CoffeePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A42C3FB1C3C5321005D2516 /* CoffeePlace.m */; };
+		4A42C3FF1C3C5DD9005D2516 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A42C3FE1C3C5DD9005D2516 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,18 @@
 		4A42C3DD1C3C4A5C005D2516 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A42C3DF1C3C4A5C005D2516 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A42C3E01C3C4A5C005D2516 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4A42C3E21C3C4A5C005D2516 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4A42C3E31C3C4A5C005D2516 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4A42C3E61C3C4A5C005D2516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A42C3E81C3C4A5C005D2516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A42C3EB1C3C4A5C005D2516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A42C3ED1C3C4A5C005D2516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A42C3F31C3C4A8E005D2516 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		4A42C3F41C3C4A8E005D2516 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		4A42C3F61C3C4AD9005D2516 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4A42C3F81C3C4ADF005D2516 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4A42C3FA1C3C5321005D2516 /* CoffeePlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeePlace.h; sourceTree = "<group>"; };
+		4A42C3FB1C3C5321005D2516 /* CoffeePlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeePlace.m; sourceTree = "<group>"; };
+		4A42C3FD1C3C5DD9005D2516 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4A42C3FE1C3C5DD9005D2516 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A42C3F91C3C4ADF005D2516 /* MapKit.framework in Frameworks */,
+				4A42C3F71C3C4AD9005D2516 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +54,8 @@
 		4A42C3D01C3C4A5C005D2516 = {
 			isa = PBXGroup;
 			children = (
+				4A42C3F81C3C4ADF005D2516 /* MapKit.framework */,
+				4A42C3F61C3C4AD9005D2516 /* CoreLocation.framework */,
 				4A42C3DB1C3C4A5C005D2516 /* FindCoffee */,
 				4A42C3DA1C3C4A5C005D2516 /* Products */,
 			);
@@ -58,10 +72,14 @@
 		4A42C3DB1C3C4A5C005D2516 /* FindCoffee */ = {
 			isa = PBXGroup;
 			children = (
+				4A42C3F31C3C4A8E005D2516 /* ListViewController.h */,
+				4A42C3F41C3C4A8E005D2516 /* ListViewController.m */,
 				4A42C3DF1C3C4A5C005D2516 /* AppDelegate.h */,
 				4A42C3E01C3C4A5C005D2516 /* AppDelegate.m */,
-				4A42C3E21C3C4A5C005D2516 /* ViewController.h */,
-				4A42C3E31C3C4A5C005D2516 /* ViewController.m */,
+				4A42C3FA1C3C5321005D2516 /* CoffeePlace.h */,
+				4A42C3FB1C3C5321005D2516 /* CoffeePlace.m */,
+				4A42C3FD1C3C5DD9005D2516 /* DetailViewController.h */,
+				4A42C3FE1C3C5DD9005D2516 /* DetailViewController.m */,
 				4A42C3E51C3C4A5C005D2516 /* Main.storyboard */,
 				4A42C3E81C3C4A5C005D2516 /* Assets.xcassets */,
 				4A42C3EA1C3C4A5C005D2516 /* LaunchScreen.storyboard */,
@@ -150,9 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A42C3E41C3C4A5C005D2516 /* ViewController.m in Sources */,
+				4A42C3FF1C3C5DD9005D2516 /* DetailViewController.m in Sources */,
 				4A42C3E11C3C4A5C005D2516 /* AppDelegate.m in Sources */,
+				4A42C3FC1C3C5321005D2516 /* CoffeePlace.m in Sources */,
 				4A42C3DE1C3C4A5C005D2516 /* main.m in Sources */,
+				4A42C3F51C3C4A8E005D2516 /* ListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
